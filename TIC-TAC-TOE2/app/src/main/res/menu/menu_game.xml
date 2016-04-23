@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/new_game"
+        android:title="Continue"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"></item>
+
+    <item android:id="@+id/exit_game"
+        android:title="Exit"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_delete"></item>
+</menu>
